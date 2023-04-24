@@ -1,0 +1,386 @@
+/*css config*/
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.float-clearing {
+	zoom: 1;
+}
+
+.float-clearing:after {
+	zoom: 1;
+	content: " ";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.col_1 {width: 8.33%;}
+.col_2 {width: 16.66%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.33%;}
+.col_5 {width: 41.66%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.33%;}
+.col_8 {width: 66.66%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.33%;}
+.col_11 {width: 91.66%;}
+.col_12 {width: 100%;}
+
+[class*="col_"] {
+	margin: 0;
+	padding: 0;
+  	float: left;
+ 	padding: 2,5%
+}
+
+@font-face {
+	font-family: BNC;
+	src: url(../font/BebasNeueCyrillic.ttf);
+	src: url(../font/BebasNeueCyrillic.eot);
+	src: url(../font/BebasNeueCyrillic.woff);
+	src: url(../font/BebasNeueCyrillic.woff2);
+}
+
+@font-face {
+	font-family: BNB;
+	src: url(../font/BebasNeueBook.ttf);
+}
+
+@font-face {
+	font-family: BNR;
+	src: url(../font/BebasNeueRegular.ttf);
+}
+
+@font-face {
+	font-family: Monsterrat;
+	src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+	background-color: black;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+/* I thing it is header */
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+
+header {
+	background-image: url(../images/texture.png);	
+	background-position: center;
+ 	background-size: cover;
+  	background-attachment: fixed;
+}
+
+section {
+	background-image: url(../images/texture.png);	
+	background-position: center;
+ 	background-size: cover;
+  	background-attachment: fixed;
+}
+
+.nav-header ul {
+	padding-top: 60px;
+	text-align: center;
+	height: 15vh;
+}
+
+.nav-header li {
+	font-family: Monsterrat;
+	font-weight: 700;
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 100px;
+}
+
+.nav-header a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.nav-header li:last-child{
+	margin-right: 0;
+}
+
+.nav-header {
+	margin: 0% 10%;
+	border-bottom: 4px solid #ffed85;
+	border-right: 4px solid #ffed85;
+	border-left: 4px solid #ffed85;
+}
+
+.header-article {
+	padding-top: 10%;
+	margin-left: 8%;
+	padding-right: 15%;
+	font-family: Monsterrat;
+}
+
+.header-article h1 {
+	font-size: 2.8em;
+	letter-spacing: 1px;
+	color: #ffed85;
+	text-transform: uppercase;
+}
+
+.header-article span{
+	color: #fff;
+	font-weight: 200;
+	letter-spacing: 0.36em;
+}
+
+.seven-years {
+	padding-top: 5%;
+	/* margin-left: 8%; */
+	font-family: BNR;
+	text-align: center;
+}
+
+.seven-years h2{
+	text-transform: uppercase;
+	/* font-weight: 300; */
+	letter-spacing: 0.35em;
+}
+
+.seven-years p{
+	font-family: BNB;
+	font-size: 0.8em;
+	/* font-weight: 100; */
+	letter-spacing: 0.20em;
+	margin-bottom: 200px;
+}
+
+.soft-skills img {
+	float: right;
+	width: 85%;
+	height: auto;
+}
+
+#header-art {
+	width: 40%;
+	height: auto;
+	float: right;
+}
+
+
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+/* nav animation */
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+
+/* nav.borderXwidth a:before, nav.borderXwidth a:after {
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+nav.borderXwidth a:before {
+    left: 0px;
+    top: 0px;
+}
+
+nav.borderXwidth a:after {
+    right: 0px;
+    bottom: 0px;
+}
+
+nav.borderXwidth a:hover:before, nav.borderXwidth a:hover:after {
+    opacity: 1;
+    width: 100%;
+} */
+
+
+
+
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+/* tex skills CSS */
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+
+.tex-skills {
+	background-color: #fff;
+	/* margin-bottom: 20%; */
+}
+
+.tex-skills p{
+	padding: 7%;
+	/* padding-bottom: ; */
+	color: #000;
+	font-family: BNC;
+	font-size: 1.8em;
+	letter-spacing: 0.4em;
+	text-align: center;
+}
+
+.tex-skills ul {
+	list-style: none;
+	display: inline-block;
+	margin-left: 19%;
+}
+
+.tex-skills img {
+	height: auto;
+	padding-bottom: 15%;
+}
+
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+/* works CSS */
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+
+
+
+
+.slideshow-container {
+	max-width: 80%;
+	position: relative;
+	margin: auto;
+	padding-top: 20%;
+}
+
+.slideshow-container a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.8em;
+	letter-spacing: 0.4em;
+	font-family: BNC;
+	padding-bottom: 10%;
+}
+  
+.mySlides {
+		display: none;
+}
+  
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+	background-color: #717171;
+}
+  
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+/* me need CSS */
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+
+.me-nead {
+	padding-top: 10%;
+	color: #fff;
+	text-align: center;
+}
+
+.me-nead h2{
+	font-family: BNR;
+	font-size: 1.8em;
+	letter-spacing: 0.4em;
+	padding-bottom: 5%;
+}
+
+.me-nead p{
+	font-family: Monsterrat;
+	font-weight: 400;
+	font-size: 0.8em;
+	padding-bottom: 1%;
+}
+
+#nenene {
+	padding: 15% 0;
+	width: 70%;
+	height: auto;
+	display:block;
+  	margin-left:auto;
+  	margin-right:auto;
+}
+
+
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+/* my skilll CSS */
+/******************************************************************************
+*******************************************************************************
+*******************************************************************************/
+
+.my-skills {
+	background-color: #fff;
+	color: #000;
+	padding-left: 5%;
+}
+
+.my-skills p{
+	padding-right: 3%;
+	float: right;
+	font-family: BNC;
+	font-size: 1.8em;
+	letter-spacing: 0.3em;
+}
+
+.my-skills ul{
+	padding: 3% 0;
+	font-family: Monsterrat;
+	font-weight: 500;
+	list-style: disc;
+	font-size: 0.8em;
+}
+
+.my-skills li {
+	margin: 1%;
+}
+
+
+
+
